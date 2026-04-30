@@ -1,0 +1,8 @@
+WINDOWS TASK SCHEDULER:
+- Ejecutar cada 2 horas.
+- Programa: php
+- Argumentos: C:\laragon\www\pollada-mama\scripts\backup.php
+- Iniciar en: C:\laragon\www\pollada-mama
+
+LINUX CRON VPS:
+0 */2 * * * /usr/bin/php /var/www/pollada-mama/scripts/backup.php >> /var/www/pollada-mama/logs/backup.log 2>&1

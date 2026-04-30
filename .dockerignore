@@ -1,0 +1,9 @@
+.git
+.gitignore
+data/*.sqlite
+data/*.sqlite-*
+backups/*.zip
+backups/.backup.lock
+logs/*.log
+uploads/polladas/*
+!uploads/polladas/.gitkeep
